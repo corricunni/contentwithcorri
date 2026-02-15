@@ -1,4 +1,19 @@
+// app/page.tsx
 import React from 'react';
+
+export default function ContentWithCorri() {
+  return (
+    <div className="min-h-screen bg-neutral-50 text-neutral-900 px-6 py-12">
+      <div className="max-w-6xl mx-auto">
+        {/* Hero Section */}
+        <section className="text-center mb-20">
+          <h1 className="text-5xl font-bold mb-6">Content With Corri</h1>
+          <p className="text-xl mb-6 max-w-2xl mx-auto">
+            Done-for-you TikTok & Instagram content for brands who don’t have time to post consistently.
+            I visit your business, film everything in one session, then deliver 30+ ready-to-post videos.
+          </p>
+          <button className="bg-black text-white px-8 py-4 rounded-2xl text-lg hover:opacity-90 transition">
+            Book a Content Day
           </button>
         </section>
 
