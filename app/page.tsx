@@ -5,6 +5,7 @@ export default function ContentWithCorri() {
   return (
     <div className="min-h-screen bg-neutral-50 text-neutral-900 px-6 py-12">
       <div className="max-w-6xl mx-auto">
+
         {/* Hero Section */}
         <section className="text-center mb-20">
           <h1 className="text-5xl font-bold mb-6">Content With Corri</h1>
@@ -40,6 +41,7 @@ export default function ContentWithCorri() {
         <section className="mb-20">
           <h2 className="text-3xl font-semibold text-center mb-10">Packages</h2>
           <div className="grid md:grid-cols-3 gap-8">
+            {/* Starter */}
             <div className="bg-white p-8 rounded-2xl shadow flex flex-col">
               <h3 className="text-2xl font-bold mb-4">Starter Content Day</h3>
               <p className="text-3xl font-semibold mb-6">$1,500</p>
@@ -53,6 +55,7 @@ export default function ContentWithCorri() {
               <button className="bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90 transition">Enquire Now</button>
             </div>
 
+            {/* Growth */}
             <div className="bg-black text-white p-8 rounded-2xl shadow flex flex-col scale-105">
               <h3 className="text-2xl font-bold mb-4">Growth Package</h3>
               <p className="text-3xl font-semibold mb-6">$2,800</p>
@@ -67,6 +70,7 @@ export default function ContentWithCorri() {
               <button className="bg-white text-black px-6 py-3 rounded-2xl hover:opacity-90 transition">Book Growth Package</button>
             </div>
 
+            {/* Authority */}
             <div className="bg-white p-8 rounded-2xl shadow flex flex-col">
               <h3 className="text-2xl font-bold mb-4">Authority Intensive</h3>
               <p className="text-3xl font-semibold mb-6">$4,500</p>
