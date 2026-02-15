@@ -24,15 +24,21 @@ export default function ContentWithCorri() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow">
               <h3 className="text-xl font-semibold mb-4">1. Strategy Call</h3>
-              <p>We map out your goals, target audience, offers, and content pillars so every video has purpose.</p>
+              <p>
+                We map out your goals, target audience, offers, and content pillars so every video has purpose.
+              </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow">
               <h3 className="text-xl font-semibold mb-4">2. Content Filming Day</h3>
-              <p>I come to your location and film all short-form content in one organised, efficient shoot.</p>
+              <p>
+                I come to your location and film all short-form content in one organised, efficient shoot.
+              </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow">
               <h3 className="text-xl font-semibold mb-4">3. 30+ Edited Videos Delivered</h3>
-              <p>You receive fully edited, caption-ready TikToks & Reels ready to schedule and post.</p>
+              <p>
+                You receive fully edited, caption-ready TikToks & Reels ready to schedule and post.
+              </p>
             </div>
           </div>
         </section>
@@ -41,6 +47,7 @@ export default function ContentWithCorri() {
         <section className="mb-20">
           <h2 className="text-3xl font-semibold text-center mb-10">Packages</h2>
           <div className="grid md:grid-cols-3 gap-8">
+
             {/* Starter */}
             <div className="bg-white p-8 rounded-2xl shadow flex flex-col">
               <h3 className="text-2xl font-bold mb-4">Starter Content Day</h3>
@@ -95,12 +102,17 @@ export default function ContentWithCorri() {
 
         {/* Final CTA */}
         <section className="text-center">
-          <h2 className="text-3xl font-semibold mb-6">Stop Posting Once a Month. Start Showing Up Daily.</h2>
-          <p className="mb-8 text-lg">Let’s batch your content properly so your brand finally looks consistent, credible, and everywhere.</p>
+          <h2 className="text-3xl font-semibold mb-6">
+            Stop Posting Once a Month. Start Showing Up Daily.
+          </h2>
+          <p className="mb-8 text-lg">
+            Let’s batch your content properly so your brand finally looks consistent, credible, and everywhere.
+          </p>
           <button className="bg-black text-white px-10 py-4 rounded-2xl text-lg hover:opacity-90 transition">
             Secure Your Content Day
           </button>
         </section>
+
       </div>
     </div>
   );
