@@ -37,7 +37,7 @@ export default function ContentWithCorri() {
           </div>
         </section>
 
-        {/* Packages Section */}
+        {/* Packages */}
         <section className="mb-20">
           <h2 className="text-3xl font-semibold text-center mb-10">Packages</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -52,7 +52,9 @@ export default function ContentWithCorri() {
                 <li>✔ Optimised for TikTok & Reels</li>
                 <li>✔ 7-day turnaround</li>
               </ul>
-              <button className="bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90 transition">Enquire Now</button>
+              <button className="bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90 transition">
+                Enquire Now
+              </button>
             </div>
 
             {/* Growth */}
@@ -67,7 +69,9 @@ export default function ContentWithCorri() {
                 <li>✔ 2 rounds of revisions</li>
                 <li>✔ 10-day turnaround</li>
               </ul>
-              <button className="bg-white text-black px-6 py-3 rounded-2xl hover:opacity-90 transition">Book Growth Package</button>
+              <button className="bg-white text-black px-6 py-3 rounded-2xl hover:opacity-90 transition">
+                Book Growth Package
+              </button>
             </div>
 
             {/* Authority */}
@@ -82,7 +86,9 @@ export default function ContentWithCorri() {
                 <li>✔ Priority 5-day turnaround</li>
                 <li>✔ Monthly strategy call</li>
               </ul>
-              <button className="bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90 transition">Apply Now</button>
+              <button className="bg-black text-white px-6 py-3 rounded-2xl hover:opacity-90 transition">
+                Apply Now
+              </button>
             </div>
           </div>
         </section>
@@ -91,7 +97,9 @@ export default function ContentWithCorri() {
         <section className="text-center">
           <h2 className="text-3xl font-semibold mb-6">Stop Posting Once a Month. Start Showing Up Daily.</h2>
           <p className="mb-8 text-lg">Let’s batch your content properly so your brand finally looks consistent, credible, and everywhere.</p>
-          <button className="bg-black text-white px-10 py-4 rounded-2xl text-lg hover:opacity-90 transition">Secure Your Content Day</button>
+          <button className="bg-black text-white px-10 py-4 rounded-2xl text-lg hover:opacity-90 transition">
+            Secure Your Content Day
+          </button>
         </section>
       </div>
     </div>
